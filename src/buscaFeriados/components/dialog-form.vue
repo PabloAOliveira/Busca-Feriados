@@ -12,7 +12,7 @@
             ]"
           >
           </v-text-field>
-          <v-btn type="submit"> Button </v-btn>
+          <v-btn type="submit"> Buscar Feriado </v-btn>
         </v-col>
       </v-row>
 
