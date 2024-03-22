@@ -5,7 +5,7 @@
         <v-col cols="12" sm="7" md="6" lg="3">
           <v-text-field
             v-model="controller.textoFeriado.value"
-            label="Label"
+            label="Digite o Ano que quer saber os feriados"
             :rules="[
               (v) => !!v || 'Preencha o Campo',
               (v) => (!!v && v.length <= 4) || 'Data Invalida',
